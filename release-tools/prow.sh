@@ -94,7 +94,7 @@ configvar CSI_PROW_GO_VERSION_GINKGO "${CSI_PROW_GO_VERSION_BUILD}" "Go version 
 
 # ginkgo test runner version to use. If the pre-installed version is
 # different, the desired version is built from source.
-configvar CSI_PROW_GINKGO_VERSION v1.7.0 "Ginkgo"
+configvar CSI_PROW_GINKGO_VERSION v2.1.4 "Ginkgo"
 
 # Ginkgo runs the E2E test in parallel. The default is based on the number
 # of CPUs, but typically this can be set to something higher in the job.
